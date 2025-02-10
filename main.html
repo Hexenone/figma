@@ -9,23 +9,27 @@
 <body>
     <header>
         <img src="icons/aura.png" class="aura-logo">
-        <ul class="header-text">
-            <li class="header-h">Авторы</li>
-            <li class="header-h">Коллекции</li>
-            <li class="header-h">Сервисы</li>
-            <div class="wallet-holder">
-                <h1 class="wallet">
-                    Кошелёк
-                </h1>
-            </div>
-        </ul>
+        <div class="wrapper">
+            <ul class="header-text">
+                <li class="header-h">Авторы</li>
+                <li class="header-h">Коллекции</li>
+                <li class="header-h">Сервисы</li>
+            </ul>
+        </div>
+        <div class="wallet-holder">
+            <button class="wallet">
+                Кошелёк
+            </button>
+       </div>
     </header>
 
     <article class="hero">
         <img src="icons/stickers_hero.png" class="stickers-hero">
-        <p class="crypto-stickers">Площадка для реализации криптостикеров</p>
-        <p class="buy-crypto-stickers">Купить</p>
-        <p class="do-crypto-stickers">Стать автором</p>
+        <h1 class="crypto-stickers">Площадка для реализации криптостикеров</h1>
+        <div class="crypto-buttons">
+            <a class="buy-crypto-stickers">Купить</a>
+            <a class="do-crypto-stickers">Стать автором</a>
+        </div>
     </article>
 
     <div class="auction">
