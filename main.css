@@ -24,7 +24,6 @@ header {
 .header-text {
     display: flex;
     align-items: center;
-    padding-right: 50%;
 }
 
 .header-h {
@@ -75,12 +74,13 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-right: 100%;
+    margin-top: 20%;
+    text-align: center;
 }
 
 .crypto-stickers {
     color: white;
-    padding: 1% 20%;
-    padding-left: 0%;
     font-size: 70px;
     font-weight: 400;
     text-align: left;
@@ -93,9 +93,6 @@ header {
     border-radius: 40px;
     width: 176px;
     height: 70px;
-    margin: 5px;
-    margin-right: 70%;
-    text-align: center;
     color: black; 
     background: linear-gradient(to bottom, #46F4DB, #57D272);
 }
@@ -106,9 +103,6 @@ header {
     border-radius: 40px;
     width: 176px;
     height: 70px;
-    margin: 5px;
-    margin-right: 70%;
-    text-align: center;
     border: 5px solid white;
     background-color: transparent;
     color: white;
@@ -126,7 +120,6 @@ header {
     font-weight: 400;
 }
 
-/* Медиа-запросы для адаптивности */
 @media screen and (max-width: 768px) {
     .header-h {
         font-size: 16px;
