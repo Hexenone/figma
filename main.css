@@ -70,12 +70,19 @@ header {
     right: 0;
 }
 
+.crypto-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    z-index: 1;
+}
+
 .crypto-buttons {
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin-right: 100%;
-    margin-top: 20%;
+    margin-top: 3%;
     text-align: center;
 }
 
@@ -84,7 +91,7 @@ header {
     font-size: 70px;
     font-weight: 400;
     text-align: left;
-    line-height: 84px;
+    padding-right: 40%;
 }
 
 .buy-crypto-stickers {
@@ -94,6 +101,9 @@ header {
     width: 176px;
     height: 70px;
     color: black; 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
     background: linear-gradient(to bottom, #46F4DB, #57D272);
 }
 
@@ -103,6 +113,9 @@ header {
     border-radius: 40px;
     width: 176px;
     height: 70px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
     border: 5px solid white;
     background-color: transparent;
     color: white;
