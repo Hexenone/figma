@@ -151,8 +151,36 @@ header {
     font-weight: 700;
     border-radius: 40px;
     display: flex; 
+    margin-top: 5%;
+    text-align: center;
     align-items: center;
     justify-content: center;
+}
+
+.witcher {
+    max-width: 460px;
+    max-height: 460px;
+    margin-left: 10%;
+}
+
+.userok {
+    border-radius: 23px;
+    border: 2px solid #EDEDF2;
+    background: #EDEDF2;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 35%;
+    display: flex; 
+    text-align: center;
+    align-items: center;
+}
+
+.avatar {
+    max-width: 48px;
+    max-height: 48px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
 }
 
 @media screen and (max-width: 768px) {
